@@ -17,11 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113ff967-0dc5-4393-9bbc-b333f1f4008f" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/MyDjango/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyDjango/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyDjango/blog/templates/blog/post/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyDjango/blog/templates/blog/post/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDjango/MyDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/MyDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDjango/MyDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/MyDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDjango/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDjango/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/blog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\strze\Documents\Django\MyDjango\blog\templates\blog" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -103,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591113156085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1591115664514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591115664514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,22 +173,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1591112966851" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1591115453321">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1591122533567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1591115453321">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591122533567" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1591122533567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1591115453321">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591122533567" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1591122533567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1591115453321">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591122533567" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1591122533567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591122533567" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591114735716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,10 +213,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1591113249761" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1591113277986">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1591115669674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591113277986" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591115669658" />
     <state x="522" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591112654497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
