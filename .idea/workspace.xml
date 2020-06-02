@@ -16,8 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113ff967-0dc5-4393-9bbc-b333f1f4008f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="113ff967-0dc5-4393-9bbc-b333f1f4008f" name="Default Changelist" comment="new">
+      <change afterPath="$PROJECT_DIR$/MyDjango/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDjango/MyDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/MyDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDjango/MyDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/MyDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDjango/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyDjango/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,34 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\strze\Documents\Django\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyDjango" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyDjango/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -57,6 +89,21 @@
       <option name="presentableId" value="Default" />
       <updated>1590929111140</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1591113104478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591113104478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1591113156085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591113156085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,56 +133,78 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591112947926">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591114915870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591112947926" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1591112613768">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591114915870" />
+    <state x="392" y="0" key="#manage" timestamp="1591114824196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591112613768" />
+    <state x="392" y="0" key="#manage/0.0.1366.728@0.0.1366.728" timestamp="1591114824196" />
+    <state x="392" y="0" key="#settings" timestamp="1591114645912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" key="#settings/0.0.1366.728@0.0.1366.728" timestamp="1591114645912" />
+    <state x="392" y="0" key="#views" timestamp="1591114033687">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" key="#views/0.0.1366.728@0.0.1366.728" timestamp="1591114033687" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1591113993609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591113993609" />
     <state x="561" y="262" key="Github.ShareDialog" timestamp="1591112966851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1591112966851" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1590930096574">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1591115453321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1590930096574">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1591115453321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1590930096574">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1591115453321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1590930096574">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1591115453321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1590930096574">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591115453321" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591114735716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1590930096574">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591114735716" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1591114735716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1590930096574">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591114735716" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1591114735716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1590930096574">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591114735716" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1591114735716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590930096574" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591114735716" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1591112897969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591112897969" />
+    <state x="569" y="278" key="VCS.EditChangelistDialog" timestamp="1591113249761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="569" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1591113249761" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1591113277986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591113277986" />
     <state x="522" y="98" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591112654497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -152,5 +221,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591112349331" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
