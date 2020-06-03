@@ -1,0 +1,17 @@
+{%extends "blog/base.html"%}
+{%block title%} Udostepnij post {%endblock%}
+{%block content%}
+{%if sent%}
+<h1>
+    Wiadomosc wyslana emailem
+</h1>
+<p>Wysyłanie posta {{post.title}} do {{cd.to}}</p>
+{%else%}
+<h1>Udostepnij {{post.title}}</h1>
+<form action="." method="post">
+    {{form.as_p}}
+    {%csrf_token%}
+    <input type="submit" value="Wyślij">
+</form>
+{%endif%}
+{%endblock%}
